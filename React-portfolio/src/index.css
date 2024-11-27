@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#icons li img {
+    width: 22px;
+}
+#icons button{
+    @apply  cursor-pointer p-2 
+}
+.menu li{
+    
+    @apply  cursor-pointer hover:text-shadow-lg hover:text-blue-500  px-2 py-1 rounded-xl font-bold  hover:shadow-gray-500
+
+}
+/* .menu li::after{
+    @apply contents-[' ']
+} */
